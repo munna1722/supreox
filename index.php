@@ -7,6 +7,8 @@
     
       <h1><?php the_permalink(  ); ?></h1>
 
+      <?php the_excerpt(  ); ?>
+
       <?php the_content(); ?>
         
         <footer>
